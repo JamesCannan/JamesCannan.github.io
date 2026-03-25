@@ -1661,7 +1661,7 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		header#header nav.use-middle::after {
+		header#header nav.use-middle::before {
     content: none !important;
     display: none !important;
     background: none !important;
