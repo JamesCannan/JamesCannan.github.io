@@ -1377,7 +1377,6 @@ input, select, textarea {
 					}
 
 		#header nav.use-middle:after {
-			display: none;
 			content: '';
 			display: block;
 			position: absolute;
@@ -1498,6 +1497,7 @@ input, select, textarea {
 
 				#header nav.use-middle:after {
 					display: none;
+					
 				}
 
 		}
@@ -1660,3 +1660,8 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		#header nav.use-middle:after {
+    content: none !important;
+    display: none !important;
+}
