@@ -1661,7 +1661,9 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		#header nav.use-middle:after {
+		header#header nav.use-middle::after {
     content: none !important;
     display: none !important;
+    background: none !important;
+    width: 0 !important;
 }
