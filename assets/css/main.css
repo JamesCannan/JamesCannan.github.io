@@ -1270,7 +1270,7 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
-
+			<!--
 			#header > *:before {
 				content: '';
 				display: block;
@@ -1281,7 +1281,7 @@ input, select, textarea {
 				height: calc(3.5rem + 1px);
 				background: #ffffff;
 			}
-
+			-->
 		#header > :first-child {
 			margin-top: 0;
 		}
